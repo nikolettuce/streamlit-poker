@@ -9,13 +9,13 @@ st.markdown("<h1 style='text-align: center; color: white;'>Poker Web3 Feasibilit
 
 # import dfs
 df_streamers = pd.read_csv(
-    '../fun_country_poker_streamers.csv',
+    '../data/fun_country_poker_streamers.csv',
     )
 df_streamers_gambling = pd.read_csv(
-    '../fun_country_gambling_streamers.csv'
+    '../data/fun_country_gambling_streamers.csv'
 )
 df_ma_crypto = pd.read_csv(
-    '../gambling_stats_crypto.tsv',
+    '../data/gambling_stats_crypto.tsv',
     sep='\t',
     index_col = 'franchise_name'
 )
